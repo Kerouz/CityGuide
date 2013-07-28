@@ -9,6 +9,7 @@
 #import "CGViewController.h"
 #import "CGAppDelegate.h"
 #import "City.h"
+#import "CityController.h"
 
 @interface CGViewController ()
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"City Guide";
     CGAppDelegate *delegate =(CGAppDelegate *)
     [[UIApplication sharedApplication] delegate];
     cities = delegate.cities;
@@ -52,9 +54,16 @@
 #pragma mark UITableViewDelegate Methods
 
 - (void)tableView:(UITableView *)tv didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    City *thisCity = [cities objectAtIndex:indexPath.row];
+    
+    CGAppDelegate *delegate = (CGAppDelegate *)
+    [[UIApplication sharedApplication] delegate];
+    CityController *city = [[CityController alloc] initWithIndexPath:indexPath];
+    [delegate.navController pushViewController:city animated:YES];
+/*    City *thisCity = [cities objectAtIndex:indexPath.row];
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:thisCity.cityName message:thisCity.cityDescription delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
     [alert show];
+ */
+    
     [tv deselectRowAtIndexPath:indexPath animated:YES];
 }
 

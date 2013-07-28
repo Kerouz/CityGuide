@@ -23,7 +23,7 @@
     
     City *sanFrancisco = [[City alloc] init];
     sanFrancisco.cityName = @"San Francisco";
-    sanFrancisco.cityDescription = @"TThe heart of the San Francisco Bay Area";
+    sanFrancisco.cityDescription = @"The heart of the San Francisco Bay Area";
     sanFrancisco.cityPicture = [UIImage imageNamed:@"SanFrancisco.jpg"];
     
     City *madrid = [[City alloc] init];
@@ -41,7 +41,10 @@
     
     // Override point for customization after application launch.
     self.viewController = [[CGViewController alloc] initWithNibName:@"CGViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+//    self.window.rootViewController = self.viewController;
+    self.navController = [[UINavigationController alloc]
+                         initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
