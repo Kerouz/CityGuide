@@ -7,14 +7,38 @@
 //
 
 #import "CGAppDelegate.h"
-
 #import "CGViewController.h"
+#import "City.h"
 
 @implementation CGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    City *london = [[City alloc] init];
+    london.cityName = @"London";
+    london.cityDescription = @"The capital of the United Kingdom and England";
+    london.cityPicture = [UIImage imageNamed:@"London.jpg"];
+    
+    City *sanFrancisco = [[City alloc] init];
+    sanFrancisco.cityName = @"San Francisco";
+    sanFrancisco.cityDescription = @"TThe heart of the San Francisco Bay Area";
+    sanFrancisco.cityPicture = [UIImage imageNamed:@"SanFrancisco.jpg"];
+    
+    City *madrid = [[City alloc] init];
+    madrid.cityName = @"Madrid";
+    madrid.cityDescription = @"The capital and Largest City of Spain";
+    madrid.cityPicture = [UIImage imageNamed:@"Madrid.jpg"];
+ 
+    City *sydney = [[City alloc] init];
+    sydney.cityName = @"Sydney";
+    sydney.cityDescription = @"The largest city in Australia";
+    sydney.cityPicture = [UIImage imageNamed:@"Sydney.jpg"];
+    
+    self.cities = [[NSMutableArray alloc]initWithObjects:london, sanFrancisco, madrid, sydney, nil];
+    
+    
     // Override point for customization after application launch.
     self.viewController = [[CGViewController alloc] initWithNibName:@"CGViewController" bundle:nil];
     self.window.rootViewController = self.viewController;

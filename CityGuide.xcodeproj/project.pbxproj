@@ -18,6 +18,11 @@
 		183CA6D017A4F76000D44A13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6CF17A4F76000D44A13 /* Default-568h@2x.png */; };
 		183CA6D317A4F76000D44A13 /* CGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA6D217A4F76000D44A13 /* CGViewController.m */; };
 		183CA6D617A4F76000D44A13 /* CGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6D417A4F76000D44A13 /* CGViewController.xib */; };
+		183CA6DE17A5116400D44A13 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA6DD17A5116400D44A13 /* City.m */; };
+		183CA6E317A515C200D44A13 /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6DF17A515C200D44A13 /* London.jpg */; };
+		183CA6E417A515C200D44A13 /* Madrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6E017A515C200D44A13 /* Madrid.jpg */; };
+		183CA6E517A515C200D44A13 /* SanFrancisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6E117A515C200D44A13 /* SanFrancisco.jpg */; };
+		183CA6E617A515C200D44A13 /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6E217A515C200D44A13 /* Sydney.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		183CA6D117A4F76000D44A13 /* CGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGViewController.h; sourceTree = "<group>"; };
 		183CA6D217A4F76000D44A13 /* CGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGViewController.m; sourceTree = "<group>"; };
 		183CA6D517A4F76000D44A13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGViewController.xib; sourceTree = "<group>"; };
+		183CA6DC17A5116400D44A13 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		183CA6DD17A5116400D44A13 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		183CA6DF17A515C200D44A13 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = London.jpg; sourceTree = "<group>"; };
+		183CA6E017A515C200D44A13 /* Madrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Madrid.jpg; sourceTree = "<group>"; };
+		183CA6E117A515C200D44A13 /* SanFrancisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanFrancisco.jpg; sourceTree = "<group>"; };
+		183CA6E217A515C200D44A13 /* Sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sydney.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +100,8 @@
 				183CA6D217A4F76000D44A13 /* CGViewController.m */,
 				183CA6D417A4F76000D44A13 /* CGViewController.xib */,
 				183CA6C017A4F76000D44A13 /* Supporting Files */,
+				183CA6DC17A5116400D44A13 /* City.h */,
+				183CA6DD17A5116400D44A13 /* City.m */,
 			);
 			path = CityGuide;
 			sourceTree = "<group>";
@@ -96,6 +109,10 @@
 		183CA6C017A4F76000D44A13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				183CA6DF17A515C200D44A13 /* London.jpg */,
+				183CA6E017A515C200D44A13 /* Madrid.jpg */,
+				183CA6E117A515C200D44A13 /* SanFrancisco.jpg */,
+				183CA6E217A515C200D44A13 /* Sydney.jpg */,
 				183CA6C117A4F76000D44A13 /* CityGuide-Info.plist */,
 				183CA6C217A4F76000D44A13 /* InfoPlist.strings */,
 				183CA6C517A4F76000D44A13 /* main.m */,
@@ -164,6 +181,10 @@
 				183CA6CE17A4F76000D44A13 /* Default@2x.png in Resources */,
 				183CA6D017A4F76000D44A13 /* Default-568h@2x.png in Resources */,
 				183CA6D617A4F76000D44A13 /* CGViewController.xib in Resources */,
+				183CA6E317A515C200D44A13 /* London.jpg in Resources */,
+				183CA6E417A515C200D44A13 /* Madrid.jpg in Resources */,
+				183CA6E517A515C200D44A13 /* SanFrancisco.jpg in Resources */,
+				183CA6E617A515C200D44A13 /* Sydney.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +198,7 @@
 				183CA6C617A4F76000D44A13 /* main.m in Sources */,
 				183CA6CA17A4F76000D44A13 /* CGAppDelegate.m in Sources */,
 				183CA6D317A4F76000D44A13 /* CGViewController.m in Sources */,
+				183CA6DE17A5116400D44A13 /* City.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
