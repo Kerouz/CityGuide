@@ -25,6 +25,8 @@
 		183CA6E617A515C200D44A13 /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6E217A515C200D44A13 /* Sydney.jpg */; };
 		183CA6EC17A528B500D44A13 /* CityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA6EA17A528B500D44A13 /* CityController.m */; };
 		183CA6ED17A528B500D44A13 /* CityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183CA6EB17A528B500D44A13 /* CityController.xib */; };
+		183CA6F517ACE1BC00D44A13 /* AddCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA6F317ACE1BC00D44A13 /* AddCityController.m */; };
+		18EBB72317AD18C2005BA636 /* AddCityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EBB72217AD18C2005BA636 /* AddCityController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,9 @@
 		183CA6E917A528B500D44A13 /* CityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityController.h; sourceTree = "<group>"; };
 		183CA6EA17A528B500D44A13 /* CityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityController.m; sourceTree = "<group>"; };
 		183CA6EB17A528B500D44A13 /* CityController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityController.xib; sourceTree = "<group>"; };
+		183CA6F217ACE1BC00D44A13 /* AddCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCityController.h; sourceTree = "<group>"; };
+		183CA6F317ACE1BC00D44A13 /* AddCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCityController.m; sourceTree = "<group>"; };
+		18EBB72217AD18C2005BA636 /* AddCityController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCityController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +108,16 @@
 				183CA6C917A4F76000D44A13 /* CGAppDelegate.m */,
 				183CA6D117A4F76000D44A13 /* CGViewController.h */,
 				183CA6D217A4F76000D44A13 /* CGViewController.m */,
+				183CA6D417A4F76000D44A13 /* CGViewController.xib */,
 				183CA6DC17A5116400D44A13 /* City.h */,
 				183CA6DD17A5116400D44A13 /* City.m */,
-				183CA6D417A4F76000D44A13 /* CGViewController.xib */,
 				183CA6C017A4F76000D44A13 /* Supporting Files */,
 				183CA6E917A528B500D44A13 /* CityController.h */,
 				183CA6EA17A528B500D44A13 /* CityController.m */,
 				183CA6EB17A528B500D44A13 /* CityController.xib */,
+				183CA6F217ACE1BC00D44A13 /* AddCityController.h */,
+				183CA6F317ACE1BC00D44A13 /* AddCityController.m */,
+				18EBB72217AD18C2005BA636 /* AddCityController.xib */,
 			);
 			path = CityGuide;
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 				183CA6E517A515C200D44A13 /* SanFrancisco.jpg in Resources */,
 				183CA6E617A515C200D44A13 /* Sydney.jpg in Resources */,
 				183CA6ED17A528B500D44A13 /* CityController.xib in Resources */,
+				18EBB72317AD18C2005BA636 /* AddCityController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +218,7 @@
 				183CA6D317A4F76000D44A13 /* CGViewController.m in Sources */,
 				183CA6DE17A5116400D44A13 /* City.m in Sources */,
 				183CA6EC17A528B500D44A13 /* CityController.m in Sources */,
+				183CA6F517ACE1BC00D44A13 /* AddCityController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +341,7 @@
 				183CA6DB17A4F76000D44A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
